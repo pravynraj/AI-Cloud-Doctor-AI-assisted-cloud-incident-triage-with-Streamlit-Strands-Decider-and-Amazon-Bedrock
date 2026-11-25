@@ -1,10 +1,6 @@
 # AI Cloud Doctor
 
-A local Streamlit prototype for cloud-incident triage. It uses a reusable
-analysis workflow and simulated service-health checks and CloudWatch-style
-metrics by default. It can optionally route through a running Strands Decider
-inference server and ask Amazon Bedrock to explain the result. The mock provider
-does not connect to or change AWS resources.
+A Streamlit-based cloud incident triage prototype featuring simulated service-health checks, CloudWatch-style metrics, and reusable analysis workflows. Optionally integrates Strands Decider and Amazon Bedrock for AI-powered incident explanations. Uses mock data without modifying AWS resources.
 
 ## Run the local app
 
